@@ -1,0 +1,89 @@
+=== GEMM  M=8192  N=8192  K=8192 ===
+
+[cuBLAS]
+  avg latency = 2.406 ms   457.00 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v0]
+  avg latency = 5.715 ms   192.40 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v1]
+  avg latency = 5.027 ms   218.74 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v2]
+  avg latency = 4.994 ms   220.15 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v3]
+  avg latency = 4.936 ms   222.77 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v4]
+  avg latency = 4.703 ms   233.77 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v5]
+  avg latency = 3.919 ms   280.58 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v6]
+  avg latency = 3.876 ms   283.65 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v7]
+  avg latency = 3.946 ms   278.65 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v8]
+  avg latency = 3.162 ms   347.69 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v9]
+  avg latency = 2.950 ms   372.66 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v10]
+  avg latency = 3.081 ms   356.92 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v11]
+  avg latency = 2.877 ms   382.23 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v12]
+  avg latency = 2.960 ms   371.40 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v13]
+  avg latency = 2.582 ms   425.83 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v14]
+  avg latency = 2.551 ms   431.09 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v15]
+  avg latency = 2.619 ms   419.88 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v16]
+  avg latency = 2.714 ms   405.07 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v17]
+  avg latency = 2.454 ms   448.02 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v18]
+  avg latency = 2.476 ms   444.08 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v19]
+  avg latency = 2.544 ms   432.25 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
+
+[VibeGEMM 8192^2 v20]
+  avg latency = 2.403 ms   457.61 TFLOPS
+  max relative error = 0.0000e+00  (PASS)
