@@ -1,3 +1,5 @@
+![VibeGEMM Logo](VibeGEMM_logo.png)
+
 # VibeGEMM
 
 VibeGEMM is an automated framework for generating high-performance GEMM kernels on GPUs. Existing approaches to GPU kernel generation often search over extremely large optimization spaces or depend heavily on prompt engineering, both of which are inefficient and frequently fail to achieve strong performance.
