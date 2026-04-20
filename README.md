@@ -1,4 +1,4 @@
-![VibeGEMM Logo](VibeGEMM_logo.png)
+![VibeGEMM Logo](imgs/VibeGEMM_logo.png)
 
 # VibeGEMM
 
