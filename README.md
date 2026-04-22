@@ -7,7 +7,7 @@ VibeGEMM is an automated framework for generating high-performance GEMM kernels 
 
 ## Features
 
-1）Automated generation of high-performance GEMM kernels  
+1）Generation of high-performance GEMM kernels  
 2）Support for GPU-specific backends such as NVIDIA A100 and H100  
 3）cuBLAS baseline integration for performance and correctness comparison  
 4）Built-in correctness validation and benchmarking workflow  
