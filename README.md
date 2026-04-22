@@ -1,5 +1,5 @@
 ![VibeGEMM Logo](imgs/VibeGEMM_logo.png)
-![workflow](img/workflow.png)
+![workflow](imgw/workflow.png)
 
 # VibeGEMM
 
