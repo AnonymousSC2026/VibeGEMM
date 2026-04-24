@@ -1,89 +1,71 @@
+=== Device: NVIDIA H100 NVL (SM: 90) ===
+
 === GEMM  M=8192  N=8192  K=8192 ===
 
 [cuBLAS]
-  avg latency = 2.406 ms   457.00 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+  avg latency = 2.436 ms   451.30 TFLOPS
 
-[VibeGEMM 8192^2 v0]
-  avg latency = 5.715 ms   192.40 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v0]
+  avg latency = 5.656 ms   194.40 TFLOPS
 
-[VibeGEMM 8192^2 v1]
-  avg latency = 5.027 ms   218.74 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v1]
+  avg latency = 5.840 ms   188.26 TFLOPS
 
-[VibeGEMM 8192^2 v2]
-  avg latency = 4.994 ms   220.15 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v2]
+  avg latency = 5.863 ms   187.55 TFLOPS
 
-[VibeGEMM 8192^2 v3]
-  avg latency = 4.936 ms   222.77 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v3]
+  avg latency = 5.126 ms   214.50 TFLOPS
 
-[VibeGEMM 8192^2 v4]
-  avg latency = 4.703 ms   233.77 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v4]
+  avg latency = 3.836 ms   286.60 TFLOPS
 
-[VibeGEMM 8192^2 v5]
-  avg latency = 3.919 ms   280.58 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v5]
+  avg latency = 3.975 ms   276.63 TFLOPS
 
-[VibeGEMM 8192^2 v6]
-  avg latency = 3.876 ms   283.65 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v6]
+  avg latency = 3.769 ms   291.72 TFLOPS
 
-[VibeGEMM 8192^2 v7]
-  avg latency = 3.946 ms   278.65 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v7]
+  avg latency = 3.906 ms   281.49 TFLOPS
 
-[VibeGEMM 8192^2 v8]
-  avg latency = 3.162 ms   347.69 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v8]
+  avg latency = 3.045 ms   361.04 TFLOPS
 
-[VibeGEMM 8192^2 v9]
-  avg latency = 2.950 ms   372.66 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v9]
+  avg latency = 3.001 ms   366.43 TFLOPS
 
-[VibeGEMM 8192^2 v10]
-  avg latency = 3.081 ms   356.92 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v10]
+  avg latency = 3.051 ms   360.35 TFLOPS
 
-[VibeGEMM 8192^2 v11]
-  avg latency = 2.877 ms   382.23 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v11]
+  avg latency = 2.816 ms   390.45 TFLOPS
 
-[VibeGEMM 8192^2 v12]
-  avg latency = 2.960 ms   371.40 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v12]
+  avg latency = 2.835 ms   387.80 TFLOPS
 
-[VibeGEMM 8192^2 v13]
-  avg latency = 2.582 ms   425.83 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v13]
+  avg latency = 2.562 ms   429.10 TFLOPS
 
-[VibeGEMM 8192^2 v14]
-  avg latency = 2.551 ms   431.09 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v14]
+  avg latency = 2.540 ms   432.88 TFLOPS
 
-[VibeGEMM 8192^2 v15]
-  avg latency = 2.619 ms   419.88 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v15]
+  avg latency = 2.630 ms   418.09 TFLOPS
 
-[VibeGEMM 8192^2 v16]
-  avg latency = 2.714 ms   405.07 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v16]
+  avg latency = 2.647 ms   415.34 TFLOPS
 
-[VibeGEMM 8192^2 v17]
-  avg latency = 2.454 ms   448.02 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v17]
+  avg latency = 2.423 ms   453.73 TFLOPS
 
-[VibeGEMM 8192^2 v18]
-  avg latency = 2.476 ms   444.08 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v18]
+  avg latency = 2.386 ms   460.83 TFLOPS
 
-[VibeGEMM 8192^2 v19]
-  avg latency = 2.544 ms   432.25 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v19]
+  avg latency = 2.444 ms   449.85 TFLOPS
 
-[VibeGEMM 8192^2 v20]
-  avg latency = 2.403 ms   457.61 TFLOPS
-  max relative error = 0.0000e+00  (PASS)
+[VibeGEMM H100 8192^2 v20]
+  avg latency = 2.404 ms   457.32 TFLOPS
+
+Done.
