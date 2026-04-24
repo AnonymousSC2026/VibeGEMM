@@ -142,7 +142,7 @@ The A100 backend evolves through 12 kernel versions (v0–v11). The initial naiv
 
 ![H100 Performance](results/perf_h100.png)
 
-The H100 backend spans 21 kernel versions (v0–v20) and starts from a much higher baseline: v0 already delivers 192.4 TFLOPS by leveraging the H100's larger shared memory and higher memory bandwidth. Versions v1–v4 make incremental improvements through tile shape tuning and occupancy optimization, reaching 233.8 TFLOPS. A significant jump occurs at v5 (280.6 TFLOPS) with improved warp scheduling and asynchronous copy (TMA) utilization. Versions v8–v9 introduce further register-level optimizations, crossing 370 TFLOPS. The v13–v14 range refines instruction scheduling and shared memory bank conflict avoidance, reaching 431 TFLOPS. Final versions v17–v20 push throughput to 457.6 TFLOPS, effectively **matching cuBLAS** (457.0 TFLOPS) at 100.1% of the baseline.
+The H100 backend includes 21 kernel versions (v0–v20). It starts from a strong baseline, with v0 reaching 194.40 TFLOPS. Early versions v1–v7 remain in the 188–292 TFLOPS range as tile shapes and execution parameters are explored. A clear improvement appears in v8–v12, where performance rises to 361–390 TFLOPS. Versions v13–v16 further improve scheduling and memory behavior, reaching up to 432.88 TFLOPS. The final versions v17–v20 approach and slightly exceed cuBLAS performance: v18 achieves the best result at 460.83 TFLOPS, compared with 451.30 TFLOPS for cuBLAS, reaching 102.1% of the cuBLAS baseline.
 
 ### Summary
 

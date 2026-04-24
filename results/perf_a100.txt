@@ -2,76 +2,41 @@
 
 [cuBLAS]
   avg latency = 4.851 ms   226.66 TFLOPS
-  max absolute error = 0.000000e+00 at [0]
-  max relative error = 0.000000e+00 at [0]  (PASS)
 
 [VibeGEMM A100 8192^2 v0]
   avg latency = 321.944 ms   3.42 TFLOPS
-  max absolute error = 1.250000e-01 at [6495559]
-  max relative error = 2.496243e+02 at [38426946]  (PASS)
 
 [VibeGEMM A100 8192^2 v1]
-smem_max_size = 64.0 KB (65536 bytes)
   avg latency = 49.289 ms   22.31 TFLOPS
-  max absolute error = 0.000000e+00 at [0]
-  max relative error = 0.000000e+00 at [0]  (PASS)
 
 [VibeGEMM A100 8192^2 v2]
-smem_max_size = 64.0 KB (65536 bytes)
   avg latency = 49.290 ms   22.31 TFLOPS
-  max absolute error = 0.000000e+00 at [0]
-  max relative error = 0.000000e+00 at [0]  (PASS)
 
 [VibeGEMM A100 8192^2 v3]
-smem_max_size = 64.0 KB (65536 bytes)
   avg latency = 33.933 ms   32.40 TFLOPS
-  max absolute error = 0.000000e+00 at [0]
-  max relative error = 0.000000e+00 at [0]  (PASS)
 
 [VibeGEMM A100 8192^2 v4]
-smem_max_size = 64.0 KB (65536 bytes)
   avg latency = 12.733 ms   86.35 TFLOPS
-  max absolute error = 0.000000e+00 at [0]
-  max relative error = 0.000000e+00 at [0]  (PASS)
 
 [VibeGEMM A100 8192^2 v5]
-smem_max_size = 72.0 KB (73728 bytes)  [AB=72.0KB  C=64.0KB  K_STAGE=3]
   avg latency = 8.773 ms   125.33 TFLOPS
-  max absolute error = 0.000000e+00 at [0]
-  max relative error = 0.000000e+00 at [0]  (PASS)
 
 [VibeGEMM A100 8192^2 v6]
-smem_max_size = 72.0 KB (73728 bytes)  [AB=72.0KB  C=64.0KB  K_STAGE=3]
   avg latency = 7.779 ms   141.34 TFLOPS
-  max absolute error = 0.000000e+00 at [0]
-  max relative error = 0.000000e+00 at [0]  (PASS)
 
 [VibeGEMM A100 8192^2 v7]
-smem_size = 72.0 KB (73728 bytes)  [AB=72.0KB  K_STAGE=3]
   avg latency = 5.553 ms   198.01 TFLOPS
-  max absolute error = 0.000000e+00 at [0]
-  max relative error = 0.000000e+00 at [0]  (PASS)
 
 [VibeGEMM A100 8192^2 v8]
-smem_size = 72.0 KB (73728 bytes)  [AB=72.0KB  K_STAGE=3]
   avg latency = 5.337 ms   206.01 TFLOPS
-  max absolute error = 0.000000e+00 at [0]
-  max relative error = 0.000000e+00 at [0]  (PASS)
 
 [VibeGEMM A100 8192^2 v9]
-smem_max_size = 72.0 KB (73728 bytes)  [AB=72.0KB  C=64.0KB  K_STAGE=3]
   avg latency = 5.192 ms   211.77 TFLOPS
-  max absolute error = 0.000000e+00 at [0]
-  max relative error = 0.000000e+00 at [0]  (PASS)
 
 [VibeGEMM A100 8192^2 v10]
-smem_max_size = 72.0 KB (73728 bytes)  [AB=72.0KB  C=64.0KB  K_STAGE=3]
   avg latency = 5.247 ms   209.55 TFLOPS
-  max absolute error = 0.000000e+00 at [0]
-  max relative error = 0.000000e+00 at [0]  (PASS)
 
 [VibeGEMM A100 8192^2 v11]
-smem_max_size = 144.0 KB (147456 bytes)  [AB=144.0KB  C=64.0KB  K_STAGE=3]
   avg latency = 4.985 ms   220.55 TFLOPS
-  max absolute error = 0.000000e+00 at [0]
-  max relative error = 0.000000e+00 at [0]  (PASS)
+
+Done.
